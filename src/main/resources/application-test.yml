@@ -1,0 +1,9 @@
+##测试环境
+server:
+#  tomcat:
+#    uri-encoding: UTF-8
+#    max-threads: 5
+#    min-spare-threads: 3
+  port: 8080
+  servlet:
+    contextPath: /

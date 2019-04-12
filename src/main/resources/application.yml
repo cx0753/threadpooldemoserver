@@ -1,0 +1,27 @@
+#ThreadPoolExecutor线程池配置
+#thread-pool:
+#  corePoolSize: 3
+#  maxPoolSize: 3
+#  keepAliveSize: 3
+#  #线程池队列最大值
+#  maxQueenlSize: 1000
+
+# mysql
+spring:
+    profiles:
+        active: test
+    servlet:
+        multipart:
+            max-file-size: 100MB
+            max-request-size: 100MB
+            enabled: true
+    mvc:
+        favicon:
+          enabled: false
+
+#logging:
+#  level:
+#    root: info
+#    com.qihai.interfaces: info
+#  path: /data/logs/tomcat/qihai_interface/
+#  file: interface.log
