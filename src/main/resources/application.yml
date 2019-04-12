@@ -22,6 +22,6 @@ spring:
 #logging:
 #  level:
 #    root: info
-#    com.qihai.interfaces: info
-#  path: /data/logs/tomcat/qihai_interface/
-#  file: interface.log
+#    com.test.cccc: info
+#  path: /data/logs/tomcat/test/
+#  file: test.log
